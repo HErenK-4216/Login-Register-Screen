@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(https://coolwallpapers.me/picsup/6031626-panorama-sunset-istanbul-evening-scenery-turkey-istanbul-city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-form {
+    background: rgb(0, 0, 0, 0.7);
+    min-width: 550px;
+    min-height: 320px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow:
+    0 0 4px rgba(0, 0, 0, 0.582),
+    0 0 8px rgba(0, 0, 0, 0.7),
+    0 0 12px rgba(0, 0, 0, 0.7),
+    0 0 16px rgba(0, 0, 0, 0.7),
+    0 0 20px rgba(0, 0, 0, 0.945);
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow:
+    0 0 4px black,
+    0 0 8px black,
+    0 0 12px black,
+    0 0 16px black,
+    0 0 20px black;
+}
+a {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(99, 167, 255);
+    text-shadow:
+    0 0 4px black,
+    0 0 8px black,
+    0 0 12px black,
+    0 0 16px black,
+    0 0 20px black;
+    transition: 1s;
+}
+a:hover {
+    text-shadow:
+    0 0 0.5px rgb(99, 167, 255),
+    0 0 1px rgb(99, 167, 255),
+    0 0 2px rgb(99, 167, 255),
+    0 0 3px rgb(99, 167, 255),
+    0 0 4px rgb(99, 167, 255);
+    transition: 1s;
+    transform: translateY(5px);
+}
+.tbox {
+    padding: 10px;
+    margin-top: 10;
+    height: 50px;
+    outline: none;
+    background: none;
+    backdrop-filter: blur(3px);
+    font-size: 15;
+    color: whitesmoke;
+    border-left: 5px;
+    border-right: 5px;
+    border-color: whitesmoke;
+    border-bottom: 5;
+    border-top: 5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow:
+    0 0 4px black,
+    0 0 8px black,
+    0 0 12px black,
+    0 0 16px black,
+    0 0 20px black;
+    transition: 1s;
+}
+.tbox:hover {
+    box-shadow:
+    0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke,
+    0 0 8px whitesmoke,
+    0 0 10px whitesmoke;
+    transition: 1s;
+    transform: translateY(5px);
+}
+.tbox:focus {
+    box-shadow:
+    0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke,
+    0 0 8px whitesmoke,
+    0 0 10px whitesmoke;
+    transition: 1s;
+    transform: translateY(5px);
+}
+.pbox {
+    margin-top: 10;
+    padding: 10px;
+    height: 50px;
+    outline: none;
+    background: none;
+    backdrop-filter: blur(3px);
+    font-size: 15;
+    color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    border-color: whitesmoke;
+    border-bottom: 5;
+    border-top: 5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow:
+    0 0 4px black,
+    0 0 8px black,
+    0 0 12px black,
+    0 0 16px black,
+    0 0 20px black;
+    transition: 1s;
+}
+.pbox:hover {
+    box-shadow:
+    0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke,
+    0 0 8px whitesmoke,
+    0 0 10px whitesmoke;
+    transition: 1s;
+    transform: translateY(5px);
+}
+.pbox:focus {
+    box-shadow:
+    0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke,
+    0 0 8px whitesmoke,
+    0 0 10px whitesmoke;
+    transition: 1s;
+    transform: translateY(5px);
+}
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.7;
+} 
+.btn {
+    margin-top: 50px;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    border-color: whitesmoke;
+    border-left: 0px;
+    border-right: 0px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:
+    0 0 2px black,
+    0 0 4px black,
+    0 0 6px black,
+    0 0 8px black,
+    0 0 10px black;
+    text-shadow:
+    0 0 0.5px black,
+    0 0 1px black,
+    0 0 2px black,
+    0 0 3px black,
+    0 0 4px black;
+    transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow:
+    0 0 2px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 6px whitesmoke,
+    0 0 8px whitesmoke,
+    0 0 10px whitesmoke;
+    text-shadow:
+    0 0 0.5px whitesmoke,
+    0 0 1px whitesmoke,
+    0 0 2px whitesmoke,
+    0 0 3px whitesmoke,
+    0 0 4px whitesmoke;
+    transition: 1s;
+    transform: translateY(-10px);
+}
+.btn:active {
+    box-shadow:
+    0 0 4px whitesmoke,
+    0 0 8px whitesmoke,
+    0 0 12px whitesmoke,
+    0 0 16px whitesmoke,
+    0 0 20px whitesmoke;
+    text-shadow:
+    0 0 1px whitesmoke,
+    0 0 2px whitesmoke,
+    0 0 3px whitesmoke,
+    0 0 4px whitesmoke,
+    0 0 5px whitesmoke;
+    transition: 0.30s;
+    transform: translateY(-20px);
+    animation: alternate-reverse;
+}
